@@ -4,8 +4,33 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>Hector Romo</title>
+
+	<script type="text/javascript">
+		var link = document.createElement('link'),
+			googleFonts = ['Open Sans', 'Roboto', 'Oswald', 'Montserrat', 'Lora', 'Merriweather', 'PT Serif', 'Inconsolata', 'Playfair Display', 'Karla'],
+			weight = [300, 400, 700],
+			url = 'http://fonts.googleapis.com/css?family=',
+			chosenType = Math.floor( Math.random() * (googleFonts.length - 0)  );
+
+		url += googleFonts[chosenType].replace(' ', '+');
+		link.setAttribute('rel', 'stylesheet');
+		link.setAttribute('type', 'text/css');
+		link.setAttribute('href', url);
+
+		var head = document.getElementsByTagName('head');
+
+		// head.append(link);
+
+		var style = document.createElement('style');
+		style.type = 'text/css';
+		style.appendChild( document.createTextNode( "body{ font-family: '"+googleFonts[chosenType]+"'; }" ) );
+		console.log(style);
+
+	</script>
 	<!-- <link rel="shortcut icon" href="http://static.tumblr.com/1ccbc9v/sCFnc0fp4/apple-touch-icon-72x72.png" /> -->
+	<link rel='stylesheet' type='text/css' class="font" href="" />
 	<!-- <link rel='stylesheet' type='text/css' href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" /> -->
+
 	<link rel="stylesheet" type="text/css" href="css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 
@@ -13,7 +38,7 @@
 <body>
 	
 	<div class="wrapper">
-		Hector Romo
+		<span>Hector Romo</span>
 	</div>
 
 </body>
