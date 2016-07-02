@@ -12,4 +12,4 @@ gallery:
 
 
 Mamen Diego
-<br>identity for mamen miego, architecture and interior design studio.
+<br>identity for mamen diego, architecture and interior design studio.
