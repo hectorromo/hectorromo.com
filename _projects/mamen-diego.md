@@ -12,5 +12,4 @@ gallery:
 
 
 Mamen Diego
-
-project is nice
+<br>project is nice
