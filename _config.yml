@@ -9,6 +9,6 @@ permalink: "pretty"
 collections:
   projects:
     output: "true"
-    permalink: "/project/:path/"
+    permalink: "/:path/"
 
 exclude: ['node_modules', 'package.json']
