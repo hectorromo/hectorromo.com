@@ -9,7 +9,7 @@ layout: default
 </div>
 
 <ul class="portfolio">
-	{% for project in site.projects | sort:'date' %}
+	{% for project in site.projects | sort:'published_date' %}
 		<li class="portfolio-item">
 			<a href="{{ project.url }}">
 				<video poster="{{ project.featured_image_path }}" preload="none" loop muted>
