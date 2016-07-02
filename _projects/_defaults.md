@@ -5,7 +5,6 @@ featured_image_path: ''
 featured_video_path: ''
 published_date: 
 gallery:
-  - image:
-    url: ''
-    alt: ''
+  - image_url:
+    image_alt: ''
 ---
