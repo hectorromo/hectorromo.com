@@ -12,4 +12,4 @@ gallery:
 
 
 Mamen Diego
-<br>project is nice
+<br>identity for mamen miego, architecture and interior design studio.
