@@ -8,7 +8,6 @@ window.onload = function() {
 var Video = {
 	init: function() {
 		var links = document.querySelectorAll('.portfolio-item span');
-		console.log(typeof links);
 		// var links = document.querySelectorAll('.portfolio-item a');
 
 		for (var i = 0; i < links.length; i++) {
@@ -25,7 +24,6 @@ var Video = {
 		var video = link.querySelector('video');
 
 		link.addEventListener('mouseover', function() {
-			console.log('mouseover');
 			Video.play(video);
 		});
 
