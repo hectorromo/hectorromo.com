@@ -18,8 +18,14 @@ layout: default
 					<source type="video/mp4" src="{{ project.featured_video_path }}">
 				</video>
 				<div class="portfolio-itemBorder"></div>
-				<div class="portfolio-itemBackground" style="background-image: url('{{ project.featured_image_path }}');"></div>
+				<div class="portfolio-itemImage" style="background-image: url('{{ project.featured_image_path }}');"></div>
+				<!-- <div class="portfolio-itemImage">
+					<img src="{{ project.featured_image_path }}" alt="">
+				</div> -->
+				<img class="portfolio-itemImage-touch" src="{{ project.featured_image_path }}" alt="">
 			</span>
+			<a class="portfolio-itemExternalLink" href="{{ project.site.url }}" target="_blank">{{ project.site.url_title }}</a>
+			<!-- <p>{{project.title}}</p> -->
 			<!-- </a> -->
 		</li>
 	{% endfor %}

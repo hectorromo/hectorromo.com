@@ -1,6 +1,9 @@
 ---
 layout: project
 title: Idear Ideas
+site:
+  url: 'http://idearideas.com'
+  url_title: 'idearideas.com'
 featured_image_path: /img/idearideas.jpg
 featured_video_path: /video/idearideas.mp4
 published_date: 2015-10-01T00:00:00.000Z
