@@ -304,10 +304,6 @@ header {
 .portfolio-item {
   width: 47%;
   margin-bottom: 5%;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
 }
 .portfolio-item span {
   display: block;
@@ -325,6 +321,8 @@ header {
 .portfolio-item video {
   width: 100%;
   float: left;
+  border: 2px solid transparent;
+  box-sizing: border-box;
 }
 .portfolio-itemBorder {
   position: absolute;
