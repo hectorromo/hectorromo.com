@@ -393,6 +393,9 @@ header {
 .touch .portfolio-itemImage-touch {
   display: block;
 }
+.touch .portfolio-itemBorder {
+  display: none;
+}
 /* BREAKPOINTS */
 @media screen and (max-width: 856px) {
   .portfolio-item {
