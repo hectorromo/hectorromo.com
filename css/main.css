@@ -244,9 +244,21 @@ a:hover {
 .hug {
   margin-top: 0;
 }
+/* Breakpoints */
+@media screen and (max-width: 600px) {
+  /* Setup */
+  html {
+    font-size: 24px;
+  }
+}
 .content {
   max-width: 85%;
   margin: 0 auto;
+}
+@media screen and (max-width: 600px) {
+  .content {
+    max-width: 90%;
+  }
 }
 header {
   margin: 3rem 0 2rem;
@@ -258,9 +270,19 @@ header {
   text-decoration: none;
   color: blue;
 }
+@media screen and (max-width: 600px) {
+  header {
+    margin: 2rem 0 1rem;
+  }
+}
 .intro-text {
   box-sizing: border-box;
   margin-bottom: 4rem;
+}
+@media screen and (max-width: 600px) {
+  .intro-text {
+    margin: 0 0 2rem;
+  }
 }
 .portfolio {
   padding: 0;
@@ -280,7 +302,6 @@ header {
   flex-wrap: wrap;
 }
 .portfolio-item {
-  opacity: 0.6;
   width: 47%;
   margin-bottom: 5%;
   -webkit-transition: all 0.3s ease-out;
@@ -288,17 +309,17 @@ header {
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-.portfolio-item a {
+.portfolio-item span {
   display: block;
   position: relative;
   zoom: 1;
 }
-.portfolio-item a:before,
-.portfolio-item a:after {
+.portfolio-item span:before,
+.portfolio-item span:after {
   content: "";
   display: table;
 }
-.portfolio-item a:after {
+.portfolio-item span:after {
   clear: both;
 }
 .portfolio-item video {
@@ -332,12 +353,31 @@ header {
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
+/* Breakpoints */
+@media screen and (max-width: 856px) {
+  .portfolio-item {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+}
 footer {
   margin: 3rem 0;
 }
 .footer-link {
   margin: 0;
 }
+.footer-link:nth-child(2) {
+  margin-bottom: 0.7rem;
+}
+.footer-link span {
+  color: #777;
+}
 .footer-link a {
   text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+  .footer-link {
+    line-height: 1.2rem;
+    font-size: 20px;
+  }
 }

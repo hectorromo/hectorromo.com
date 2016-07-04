@@ -12,12 +12,14 @@ layout: default
 	{% assign projects = site.projects | sort:"published_date" | reverse %}
 	{% for project in projects %}
 		<li class="portfolio-item">
-			<a href="{{ project.url }}">
+			<span>
+			<!-- <a href="{{ project.url }}"> -->
 				<video poster="{{ project.featured_image_path }}" preload="none" loop muted>
 					<source type="video/mp4" src="{{ project.featured_video_path }}">
 				</video>
 				<div class="portfolio-itemBackground" style="background-image: url('{{ project.featured_image_path }}');"></div>
-			</a>
+			</span>
+			<!-- </a> -->
 		</li>
 	{% endfor %}
 </ul>

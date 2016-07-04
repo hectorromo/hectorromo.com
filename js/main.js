@@ -5,11 +5,10 @@ window.onload = function() {
 }
 
 
-
 var Video = {
 	init: function() {
-		var links = document.querySelectorAll('.portfolio-item a');
-
+		var links = document.querySelectorAll('.portfolio-item span');
+		// var links = document.querySelectorAll('.portfolio-item a');
 
 		links.forEach(function(link) {
 			Video.listen(link);
