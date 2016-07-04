@@ -17,6 +17,7 @@ layout: default
 				<video poster="{{ project.featured_image_path }}" preload="none" loop muted>
 					<source type="video/mp4" src="{{ project.featured_video_path }}">
 				</video>
+				<div class="portfolio-itemBorder"></div>
 				<div class="portfolio-itemBackground" style="background-image: url('{{ project.featured_image_path }}');"></div>
 			</span>
 			<!-- </a> -->
