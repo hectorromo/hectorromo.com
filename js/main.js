@@ -8,11 +8,17 @@ window.onload = function() {
 var Video = {
 	init: function() {
 		var links = document.querySelectorAll('.portfolio-item span');
+		console.log(typeof links);
 		// var links = document.querySelectorAll('.portfolio-item a');
 
-		links.forEach(function(link) {
-			Video.listen(link);
-		});
+		for (var i = 0; i < links.length; i++) {
+			Video.listen(links[i]);
+		}
+
+		// Does not work in safari and firefox
+		// links.forEach(function(link) {
+		// 	Video.listen(link);
+		// });
 	},
 
 	listen: function(link) {
