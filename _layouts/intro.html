@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+{{content}}
+
+<ul class="portfolio">
+    {% assign projects = site.projects | sort:"published_date" | reverse %}
+    {% for project in projects %}
+        <li class="portfolio-item">
+            <span>
+            <!-- <a href="{{ project.url }}"> -->
+                <video poster="{{ project.featured_image_path }}" preload="none" loop muted>
+                    <source type="video/mp4" src="{{ project.featured_video_path }}">
+                </video>
+                <div class="portfolio-itemBorder"></div>
+                <div class="portfolio-itemImage" style="background-image: url('{{ project.featured_image_path }}');"></div>
+                <!-- <div class="portfolio-itemImage">
+                    <img src="{{ project.featured_image_path }}" alt="">
+                </div> -->
+                <img class="portfolio-itemImage-touch" src="{{ project.featured_image_path }}" alt="">
+            </span>
+            <a class="portfolio-itemExternalLink" href="{{ project.site.url }}" target="_blank">{{ project.site.url_title }}</a>
+            <!-- <p>{{project.title}}</p> -->
+            <!-- </a> -->
+        </li>
+    {% endfor %}
+</ul>
