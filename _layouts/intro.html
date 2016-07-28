@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{{content}}
+<div class="intro"><p class="intro-text">{{content}}</p></div>
 
 <ul class="portfolio">
     {% assign projects = site.projects | sort:"published_date" | reverse %}
