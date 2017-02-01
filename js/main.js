@@ -1,7 +1,5 @@
 window.onload = function() {
-
 	Video.init();
-
 }
 
 
