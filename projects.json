@@ -10,7 +10,7 @@ layout: null
 				"url": "{{project.site.url}}",
 				"url_title": "{{project.site.url_title}}"
 			},
-			"featured_image_path": "{{project.featured_image_path | relative_url }}",
+			"featured_image_path": "{{ 'project.featured_image_path' | relative_url }}",
 			"featured_video_path": "{{project.featured_video_path | absolute_url }}",
 			"published_date": "{{project.published_date}}",
 			"gallery": [
