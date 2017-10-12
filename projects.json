@@ -10,15 +10,15 @@ layout: null
 				"url": "{{project.site.url}}",
 				"url_title": "{{project.site.url_title}}"
 			},
-			"featured_image_path": "{{site.url}}/{{project.featured_image_path }}",
-			"featured_video_path": "{{site.url}}/{{project.featured_video_path }}",
+			"featured_image_path": "{{site.url}}{{project.featured_image_path }}",
+			"featured_video_path": "{{site.url}}{{project.featured_video_path }}",
 			"published_date": "{{project.published_date}}"
 			{% if project.gallery.length > 0 %}
 			,
 			"gallery": [
 				{% for image in project.gallery %}
 					{
-						"url": "{{site.url}}/{{image.image_url}}",
+						"url": "{{site.url}}{{image.image_url}}",
 						"alt": "{{image.image_alt}}"
 					}{% unless forloop.last %},{% endunless %}
 				{% endfor %}
