@@ -1,5 +1,5 @@
 ---
 layout: null
-permalink: /.well-known/acme-challenge/PhsQr0ugaqvDhiq7_NOgcq_eoWn4ufkjPJZ9tWP7TX8/index.html
+permalink: /.well-known/acme-challenge/bLKtgpK5XYLhbQXRumM59Pt-hRaKQ-aZ00RDPVFhX0M/index.html
 ---
-PhsQr0ugaqvDhiq7_NOgcq_eoWn4ufkjPJZ9tWP7TX8.7kOnbjdkxyleG8z21lp7fvDAf4N1SrluZRgJ_VtBNDg
+bLKtgpK5XYLhbQXRumM59Pt-hRaKQ-aZ00RDPVFhX0M.7kOnbjdkxyleG8z21lp7fvDAf4N1SrluZRgJ_VtBNDg
