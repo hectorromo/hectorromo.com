@@ -4,7 +4,7 @@ layout: default
 
 {{content}}
 
-<ul class="portfolio">
+{% comment %}<ul class="portfolio">
     {% assign projects = site.projects | sort:"published_date" | reverse %}
     {% for project in projects %}
         <li class="portfolio-item">
@@ -25,4 +25,4 @@ layout: default
             <!-- </a> -->
         </li>
     {% endfor %}
-</ul>
+</ul>{% endcomment %}
