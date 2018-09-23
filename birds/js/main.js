@@ -58,8 +58,9 @@ Example.slingshot = function() {
             stiffness: 0.05
         });
 
-    var pyramid = Composites.pyramid(500, 300, 9, 10, 0, 0, function(x, y) {
-        return Bodies.rectangle(x, y, 25, 40, {
+    var pyramid = Composites.pyramid(500, 300, 9, 50, 0, 0, function(x, y) {
+        return Bodies.circle(x, y, 20, {
+        // return Bodies.rectangle(x, y, 25, 40, {
           render: { 
             sprite: {
               texture: 'http://www.hectorromo.com/img/149780874322561.png' 
