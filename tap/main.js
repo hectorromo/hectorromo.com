@@ -35,7 +35,7 @@ function draw() {
 	// var d = dist(windowWidth/2, windowHeight/2, mouseX, mouseY);
 
 	// fill( random(200, 250), random(200, 250), random(200, 250));
-	console.log('DIAMETER: ' + CIRCLE_SIZE);
+	// console.lsog('DIAMETER: ' + CIRCLE_SIZE);
     fill(r, g, b);
 	ellipse (x, y, CIRCLE_SIZE, CIRCLE_SIZE);
 
