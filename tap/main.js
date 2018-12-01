@@ -21,7 +21,7 @@ function setup() {
 	textAlign(LEFT);
 
 	sound = new Howl({
-		src: ['fart.mp3'],
+		src: ['./fart.mp3'],
 		sprite: {
 		  fart: [0, 1500]
 		}
