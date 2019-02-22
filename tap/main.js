@@ -51,7 +51,6 @@ function draw() {
 		YSPEED = -YSPEED;
 	}
 
-
 	fill(255);
   	text(taps, 25, 65);
 }
