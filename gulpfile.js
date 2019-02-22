@@ -103,3 +103,4 @@ gulp.task('watch', function () {
  */
 gulp.task('default', ['browser-sync', 'watch']);
 // gulp.task('prod', ['browser-sync', 'production']);
+gulp.task('build', ['scripts', 'jekyll-build']);
